@@ -1,0 +1,32 @@
+{
+  "name": "ContractA",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "setdata",
+      "args": [
+        {
+          "name": "d",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "getdata",
+      "args": [],
+      "returns": {
+        "type": "string"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ContractB",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "parent_id",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "setdata",
+      "args": [
+        {
+          "name": "d",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "getdata",
+      "args": [],
+      "returns": {
+        "type": "string"
+      }
+    }
+  ]
+}
